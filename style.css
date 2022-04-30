@@ -114,7 +114,13 @@ main ul {
     text-indent: 40px;
 }
 
-
+.one-column {
+    columns: 1;
+    margin: 30px 0;
+}
+.erica {
+    margin: 0;
+}
 
 main table {
     border-collapse: collapse;
