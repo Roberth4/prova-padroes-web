@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: catar1;
+    src: url(font/Graphik\ Arabic\ Medium.otf);
+}
+
+@font-face {
+    font-family: catar2;
+    src: url(font/Qatar2022Arabic-Bold.ttf);
+}
+@font-face {
+    font-family: catar3;
+    src: url(font/Qatar2022Arabic-Heavy.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+        --cor1: #9C163C;
+        --cor2: #BF889C;
+        --cor3: #400621;
+        --cor4: #260216;
+        --cor5: #F2F2F2;
+
+        --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+        --fonte-destaque: "catar1", cursvei;
+}
+
+header {
+    display: flex;
+    background-color: black;
+    width: 100%;
+    height: 90px;
+    justify-content: center;
+}
+
+
+.container-logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-imagem {
+    height: 60px;
+    width: 60px;
+    background-color: #400621;
+    background: url(images/fifa-world-cup-qatar-2022.svg) no-repeat;
+
+}
+
+.logo-texto {
+    color: white;
+    text-transform: uppercase;
+    font-family: catar1;
+    margin-left: 30px;
+    padding-bottom: 7px;
+}
+
+.container-flex {
+    height: 35px;
+    font-family: catar3;
+    text-transform: uppercase;
+    background-color: black;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+}
+
+.item-flex {
+    height: 64%;
+    padding: 17px;
+    text-decoration: none;
+    color: white;
+    margin: -11px 10px;
+}
+
+.item-flex:hover {
+    color: var(--cor1)
+}
+
+body {
+    width: 100%;
+}
+
+.center {
+    text-align: center;
+}
+
+
+main h2, h3, p {
+margin: 25px 30px;
+}
+
+main p {
+    font-family: var(--fonte-padrao);
+    margin-left: 50px;
+}
+
+main h2 {
+    font-family: var(--fonte-destaque);
+    text-transform: uppercase;
+}
+
+main ul {
+    list-style-position: inside;
+    columns: 2;
+    text-indent: 40px;
+}
+
+
+
+main table {
+    border-collapse: collapse;
+    margin-left: 50px;
+    width: 40%;
+
+}
+
+main table td {
+    padding: 7px;
+    height: 35px;
+    border: 1px solid black;
+
+}
+
+.galeria {
+    display: flex;
+    position: relative;
+    margin-left: 35px;
+    justify-content: center;
+}
+.img {
+    height: 350px;
+    width: 750px;
+    max-width: 800px;
+    min-width: 350px;
+    border-radius: 14px;
+    box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.315);
+}
+
+footer {
+    background-color: black;
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+    height: 20px;
+    padding: 10px;
+}
