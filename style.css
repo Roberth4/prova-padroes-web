@@ -95,7 +95,7 @@ body {
 
 
 main h2, h3, p {
-margin: 25px 30px;
+    margin: 25px 30px;
 }
 
 main p {
@@ -137,6 +137,7 @@ main table td {
     display: flex;
     position: relative;
     margin-left: 35px;
+    margin-right: 35px;
     justify-content: center;
 }
 .img {
