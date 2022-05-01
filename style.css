@@ -112,15 +112,23 @@ main ul, ol {
     list-style-position: inside;
     columns: 2;
     text-indent: 40px;
-    font-family: catar2;
+    font-family: catar1;
     font-size: 1.2em;
 }
+
+main h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: catar2;
+}
+
 
 .one-column {
     font-family: catar2;
     font-size: 1.2em;
     columns: 1;
     margin: 30px 0;
+    text-transform: uppercase;
 }
 
 .galeria {
